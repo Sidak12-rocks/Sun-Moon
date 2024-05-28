@@ -1,0 +1,123 @@
+.main{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 0 0 10px 10px yellow;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    z-index: -10;
+    position: absolute;
+
+}
+.main:hover{
+    background-color: grey;
+    box-shadow: 0 0 30px 10px white 
+    ,0 0 900px 1900px black;
+    transform: translate(200px,300px);
+}
+.star-1{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    animation-name: star-1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes star-1 {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0.1;
+        box-shadow:0 0 10px 5px white;
+    }
+}
+.star-2{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    animation-name: star-2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 110px;
+    right: 260px;
+}
+@keyframes star-2 {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0.1;
+        box-shadow:0 0 10px 5px white;
+    }
+}
+.star-3{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    animation-name: star-3;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 60px;
+    right: 550px;
+}
+@keyframes star-3 {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0.1;
+        box-shadow:0 0 10px 5px white;
+    }
+}.star-4{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    animation-name: star-4;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 500px;
+    right: 450px;
+}
+@keyframes star-4 {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0.1;
+        box-shadow:0 0 10px 5px white;
+    }
+}.star-5{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    animation-name: star-5;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+@keyframes star-5 {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0.1;
+        box-shadow:0 0 10px 5px white;
+    }
+}
